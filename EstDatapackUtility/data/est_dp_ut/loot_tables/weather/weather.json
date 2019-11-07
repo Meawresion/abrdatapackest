@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+		  "type": "minecraft:item",
+		  "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Weather:Clear,bd:true}"}],
+		  "conditions": [{"condition": "minecraft:weather_check","raining": false,"thundering": false}],
+		  "name": "minecraft:sea_pickle"
+		},
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Weather:Rain,bd:true}"}],
+          "conditions": [{"condition": "minecraft:weather_check","raining": true,"thundering": false}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+		  "type": "minecraft:item",
+		  "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Weather:Thunder,bd:true}"}],
+		  "conditions": [{"condition": "minecraft:weather_check","raining": true,"thundering": true}],
+		  "name": "minecraft:sea_pickle"
+		}
+	  ]
+	}
+  ]
+}
+			  
+

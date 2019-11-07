@@ -1,0 +1,18 @@
+execute if score @s bw_block matches 1543 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:iron_trapdoor[half=bottom,facing=north,waterlogged=false]
+execute if score @s bw_block matches 1543 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:iron_trapdoor[half=bottom,facing=north,waterlogged=true]
+execute if score @s bw_block matches 1544 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:iron_trapdoor[half=bottom,facing=east,waterlogged=false]
+execute if score @s bw_block matches 1544 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:iron_trapdoor[half=bottom,facing=east,waterlogged=true]
+execute if score @s bw_block matches 1545 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:iron_trapdoor[half=bottom,facing=west,waterlogged=false]
+execute if score @s bw_block matches 1545 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:iron_trapdoor[half=bottom,facing=west,waterlogged=true]
+execute if score @s bw_block matches 1546 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:iron_trapdoor[half=bottom,facing=south,waterlogged=false]
+execute if score @s bw_block matches 1546 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:iron_trapdoor[half=bottom,facing=south,waterlogged=true]
+execute if score @s bw_block matches 1547 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:iron_trapdoor[half=top,facing=north,waterlogged=false]
+execute if score @s bw_block matches 1547 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:iron_trapdoor[half=top,facing=north,waterlogged=true]
+execute if score @s bw_block matches 1548 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:iron_trapdoor[half=top,facing=east,waterlogged=false]
+execute if score @s bw_block matches 1548 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:iron_trapdoor[half=top,facing=east,waterlogged=true]
+execute if score @s bw_block matches 1549 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:iron_trapdoor[half=top,facing=west,waterlogged=false]
+execute if score @s bw_block matches 1549 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:iron_trapdoor[half=top,facing=west,waterlogged=true]
+execute if score @s bw_block matches 1550 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:iron_trapdoor[half=top,facing=south,waterlogged=false]
+execute if score @s bw_block matches 1550 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:iron_trapdoor[half=top,facing=south,waterlogged=true]
+clear @s minecraft:iron_trapdoor 1
+function bw:scores

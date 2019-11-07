@@ -1,0 +1,3 @@
+execute at @a at @s if entity @p[nbt={SelectedItem:{id:"minecraft:written_book",Count:1b,tag:{IsTPBook:1b}}}] run title @a actionbar [{"text":"Ender Pearls Fuel : ","color":"green"},{"score":{"name":"*","objective":"TPBook.fuel"},"color":"white"}]
+execute as @e[type=item,nbt={Item:{id:"minecraft:ender_pearl",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{tag:{IsTPBook:1b}}},limit=1,distance=..0.5] run function arbiwreist:teleportbook/fuel.add
+scoreboard players add @a TPBook.fuel 0

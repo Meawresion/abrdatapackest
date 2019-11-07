@@ -1,0 +1,18 @@
+execute if score @s bw_block matches 1511 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:dark_oak_trapdoor[half=bottom,facing=north,waterlogged=false]
+execute if score @s bw_block matches 1511 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:dark_oak_trapdoor[half=bottom,facing=north,waterlogged=true]
+execute if score @s bw_block matches 1512 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:dark_oak_trapdoor[half=bottom,facing=east,waterlogged=false]
+execute if score @s bw_block matches 1512 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:dark_oak_trapdoor[half=bottom,facing=east,waterlogged=true]
+execute if score @s bw_block matches 1513 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:dark_oak_trapdoor[half=bottom,facing=west,waterlogged=false]
+execute if score @s bw_block matches 1513 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:dark_oak_trapdoor[half=bottom,facing=west,waterlogged=true]
+execute if score @s bw_block matches 1514 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:dark_oak_trapdoor[half=bottom,facing=south,waterlogged=false]
+execute if score @s bw_block matches 1514 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:dark_oak_trapdoor[half=bottom,facing=south,waterlogged=true]
+execute if score @s bw_block matches 1515 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:dark_oak_trapdoor[half=top,facing=north,waterlogged=false]
+execute if score @s bw_block matches 1515 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:dark_oak_trapdoor[half=top,facing=north,waterlogged=true]
+execute if score @s bw_block matches 1516 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:dark_oak_trapdoor[half=top,facing=east,waterlogged=false]
+execute if score @s bw_block matches 1516 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:dark_oak_trapdoor[half=top,facing=east,waterlogged=true]
+execute if score @s bw_block matches 1517 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:dark_oak_trapdoor[half=top,facing=west,waterlogged=false]
+execute if score @s bw_block matches 1517 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:dark_oak_trapdoor[half=top,facing=west,waterlogged=true]
+execute if score @s bw_block matches 1518 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:dark_oak_trapdoor[half=top,facing=south,waterlogged=false]
+execute if score @s bw_block matches 1518 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:dark_oak_trapdoor[half=top,facing=south,waterlogged=true]
+clear @s minecraft:dark_oak_trapdoor 1
+function bw:scores

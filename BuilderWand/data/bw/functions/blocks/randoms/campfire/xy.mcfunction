@@ -1,0 +1,2 @@
+execute if entity @s[tag=bw_5] if block ~ ~ ~1 minecraft:campfire unless entity @e[type=!item,dx=0,limit=1] run function bw:blocks/randoms/campfire/set
+execute if entity @s[tag=bw_6] if block ~ ~ ~-1 minecraft:campfire unless entity @e[type=!item,dx=0,limit=1] run function bw:blocks/randoms/campfire/set

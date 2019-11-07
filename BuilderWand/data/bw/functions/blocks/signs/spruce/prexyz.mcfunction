@@ -1,0 +1,10 @@
+execute store result score @s[tag=bw_spiq] bw_calc run clear @s minecraft:spruce_sign 0
+scoreboard players operation @s[tag=bw_spiq] bw_calc < #bw_cudu bw_calc
+execute if score @s bw_calc matches 1.. run function bw:blocks/signs/spruce/collidexyz
+execute if score #bw_cdbs bw_calc matches 1 run function bw:blocks/signs/spruce/state
+execute if score @s bw_mcxyz matches 1 run function bw:blocks/signs/spruce/block_x
+execute if score @s bw_mcxyz matches 2 run function bw:blocks/signs/spruce/block_z
+execute if score @s bw_mcxyz matches 3 run function bw:blocks/signs/spruce/block_y
+execute if score @s bw_mcxyz matches 4 run function bw:blocks/signs/spruce/block_xz
+execute if score @s bw_mcxyz matches 5 run function bw:blocks/signs/spruce/block_xy
+execute if score @s bw_mcxyz matches 6 run function bw:blocks/signs/spruce/block_zy

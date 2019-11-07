@@ -1,0 +1,2 @@
+execute if entity @s[tag=bw_1] if block ~1 ~ ~ minecraft:observer unless entity @e[type=!item,dx=0,limit=1] run function bw:blocks/redstone/observer/set
+execute if entity @s[tag=bw_2] if block ~-1 ~ ~ minecraft:observer unless entity @e[type=!item,dx=0,limit=1] run function bw:blocks/redstone/observer/set

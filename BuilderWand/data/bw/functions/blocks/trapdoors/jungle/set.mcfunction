@@ -1,0 +1,18 @@
+execute if score @s bw_block matches 1519 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:jungle_trapdoor[half=bottom,facing=north,waterlogged=false]
+execute if score @s bw_block matches 1519 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:jungle_trapdoor[half=bottom,facing=north,waterlogged=true]
+execute if score @s bw_block matches 1520 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:jungle_trapdoor[half=bottom,facing=east,waterlogged=false]
+execute if score @s bw_block matches 1520 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:jungle_trapdoor[half=bottom,facing=east,waterlogged=true]
+execute if score @s bw_block matches 1521 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:jungle_trapdoor[half=bottom,facing=west,waterlogged=false]
+execute if score @s bw_block matches 1521 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:jungle_trapdoor[half=bottom,facing=west,waterlogged=true]
+execute if score @s bw_block matches 1522 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:jungle_trapdoor[half=bottom,facing=south,waterlogged=false]
+execute if score @s bw_block matches 1522 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:jungle_trapdoor[half=bottom,facing=south,waterlogged=true]
+execute if score @s bw_block matches 1523 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:jungle_trapdoor[half=top,facing=north,waterlogged=false]
+execute if score @s bw_block matches 1523 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:jungle_trapdoor[half=top,facing=north,waterlogged=true]
+execute if score @s bw_block matches 1524 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:jungle_trapdoor[half=top,facing=east,waterlogged=false]
+execute if score @s bw_block matches 1524 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:jungle_trapdoor[half=top,facing=east,waterlogged=true]
+execute if score @s bw_block matches 1525 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:jungle_trapdoor[half=top,facing=west,waterlogged=false]
+execute if score @s bw_block matches 1525 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:jungle_trapdoor[half=top,facing=west,waterlogged=true]
+execute if score @s bw_block matches 1526 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:jungle_trapdoor[half=top,facing=south,waterlogged=false]
+execute if score @s bw_block matches 1526 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:jungle_trapdoor[half=top,facing=south,waterlogged=true]
+clear @s minecraft:jungle_trapdoor 1
+function bw:scores

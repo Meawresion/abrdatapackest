@@ -1,0 +1,18 @@
+execute if score @s bw_block matches 1471 run setblock -30000000 2 1610 minecraft:red_nether_brick_stairs[half=bottom,facing=north,waterlogged=false]
+execute if score @s bw_block matches 1471 run setblock -30000000 1 1610 minecraft:red_nether_brick_stairs[half=bottom,facing=north,waterlogged=true]
+execute if score @s bw_block matches 1472 run setblock -30000000 2 1610 minecraft:red_nether_brick_stairs[half=bottom,facing=east,waterlogged=false]
+execute if score @s bw_block matches 1472 run setblock -30000000 1 1610 minecraft:red_nether_brick_stairs[half=bottom,facing=east,waterlogged=true]
+execute if score @s bw_block matches 1473 run setblock -30000000 2 1610 minecraft:red_nether_brick_stairs[half=bottom,facing=west,waterlogged=false]
+execute if score @s bw_block matches 1473 run setblock -30000000 1 1610 minecraft:red_nether_brick_stairs[half=bottom,facing=west,waterlogged=true]
+execute if score @s bw_block matches 1474 run setblock -30000000 2 1610 minecraft:red_nether_brick_stairs[half=bottom,facing=south,waterlogged=false]
+execute if score @s bw_block matches 1474 run setblock -30000000 1 1610 minecraft:red_nether_brick_stairs[half=bottom,facing=south,waterlogged=true]
+execute if score @s bw_block matches 1475 run setblock -30000000 2 1610 minecraft:red_nether_brick_stairs[half=top,facing=north,waterlogged=false]
+execute if score @s bw_block matches 1475 run setblock -30000000 1 1610 minecraft:red_nether_brick_stairs[half=top,facing=north,waterlogged=true]
+execute if score @s bw_block matches 1476 run setblock -30000000 2 1610 minecraft:red_nether_brick_stairs[half=top,facing=east,waterlogged=false]
+execute if score @s bw_block matches 1476 run setblock -30000000 1 1610 minecraft:red_nether_brick_stairs[half=top,facing=east,waterlogged=true]
+execute if score @s bw_block matches 1477 run setblock -30000000 2 1610 minecraft:red_nether_brick_stairs[half=top,facing=west,waterlogged=false]
+execute if score @s bw_block matches 1477 run setblock -30000000 1 1610 minecraft:red_nether_brick_stairs[half=top,facing=west,waterlogged=true]
+execute if score @s bw_block matches 1478 run setblock -30000000 2 1610 minecraft:red_nether_brick_stairs[half=top,facing=south,waterlogged=false]
+execute if score @s bw_block matches 1478 run setblock -30000000 1 1610 minecraft:red_nether_brick_stairs[half=top,facing=south,waterlogged=true]
+function bw:blocks/stairs/red_nether_brick/set
+playsound minecraft:block.stone.place block @s ~ ~ ~ 1 0.8

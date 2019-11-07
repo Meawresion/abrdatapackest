@@ -1,0 +1,18 @@
+execute if score @s bw_block matches 1479 run setblock -30000000 2 1610 minecraft:diorite_stairs[half=bottom,facing=north,waterlogged=false]
+execute if score @s bw_block matches 1479 run setblock -30000000 1 1610 minecraft:diorite_stairs[half=bottom,facing=north,waterlogged=true]
+execute if score @s bw_block matches 1480 run setblock -30000000 2 1610 minecraft:diorite_stairs[half=bottom,facing=east,waterlogged=false]
+execute if score @s bw_block matches 1480 run setblock -30000000 1 1610 minecraft:diorite_stairs[half=bottom,facing=east,waterlogged=true]
+execute if score @s bw_block matches 1481 run setblock -30000000 2 1610 minecraft:diorite_stairs[half=bottom,facing=west,waterlogged=false]
+execute if score @s bw_block matches 1481 run setblock -30000000 1 1610 minecraft:diorite_stairs[half=bottom,facing=west,waterlogged=true]
+execute if score @s bw_block matches 1482 run setblock -30000000 2 1610 minecraft:diorite_stairs[half=bottom,facing=south,waterlogged=false]
+execute if score @s bw_block matches 1482 run setblock -30000000 1 1610 minecraft:diorite_stairs[half=bottom,facing=south,waterlogged=true]
+execute if score @s bw_block matches 1483 run setblock -30000000 2 1610 minecraft:diorite_stairs[half=top,facing=north,waterlogged=false]
+execute if score @s bw_block matches 1483 run setblock -30000000 1 1610 minecraft:diorite_stairs[half=top,facing=north,waterlogged=true]
+execute if score @s bw_block matches 1484 run setblock -30000000 2 1610 minecraft:diorite_stairs[half=top,facing=east,waterlogged=false]
+execute if score @s bw_block matches 1484 run setblock -30000000 1 1610 minecraft:diorite_stairs[half=top,facing=east,waterlogged=true]
+execute if score @s bw_block matches 1485 run setblock -30000000 2 1610 minecraft:diorite_stairs[half=top,facing=west,waterlogged=false]
+execute if score @s bw_block matches 1485 run setblock -30000000 1 1610 minecraft:diorite_stairs[half=top,facing=west,waterlogged=true]
+execute if score @s bw_block matches 1486 run setblock -30000000 2 1610 minecraft:diorite_stairs[half=top,facing=south,waterlogged=false]
+execute if score @s bw_block matches 1486 run setblock -30000000 1 1610 minecraft:diorite_stairs[half=top,facing=south,waterlogged=true]
+function bw:blocks/stairs/diorite/set
+playsound minecraft:block.stone.place block @s ~ ~ ~ 1 0.8

@@ -1,0 +1,18 @@
+execute if score @s bw_block matches 1535 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:spruce_trapdoor[half=bottom,facing=north,waterlogged=false]
+execute if score @s bw_block matches 1535 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:spruce_trapdoor[half=bottom,facing=north,waterlogged=true]
+execute if score @s bw_block matches 1536 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:spruce_trapdoor[half=bottom,facing=east,waterlogged=false]
+execute if score @s bw_block matches 1536 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:spruce_trapdoor[half=bottom,facing=east,waterlogged=true]
+execute if score @s bw_block matches 1537 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:spruce_trapdoor[half=bottom,facing=west,waterlogged=false]
+execute if score @s bw_block matches 1537 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:spruce_trapdoor[half=bottom,facing=west,waterlogged=true]
+execute if score @s bw_block matches 1538 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:spruce_trapdoor[half=bottom,facing=south,waterlogged=false]
+execute if score @s bw_block matches 1538 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:spruce_trapdoor[half=bottom,facing=south,waterlogged=true]
+execute if score @s bw_block matches 1539 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:spruce_trapdoor[half=top,facing=north,waterlogged=false]
+execute if score @s bw_block matches 1539 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:spruce_trapdoor[half=top,facing=north,waterlogged=true]
+execute if score @s bw_block matches 1540 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:spruce_trapdoor[half=top,facing=east,waterlogged=false]
+execute if score @s bw_block matches 1540 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:spruce_trapdoor[half=top,facing=east,waterlogged=true]
+execute if score @s bw_block matches 1541 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:spruce_trapdoor[half=top,facing=west,waterlogged=false]
+execute if score @s bw_block matches 1541 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:spruce_trapdoor[half=top,facing=west,waterlogged=true]
+execute if score @s bw_block matches 1542 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:spruce_trapdoor[half=top,facing=south,waterlogged=false]
+execute if score @s bw_block matches 1542 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:spruce_trapdoor[half=top,facing=south,waterlogged=true]
+clear @s minecraft:spruce_trapdoor 1
+function bw:scores

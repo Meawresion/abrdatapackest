@@ -1,0 +1,18 @@
+execute if score @s bw_block matches 1495 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:acacia_trapdoor[half=bottom,facing=north,waterlogged=false]
+execute if score @s bw_block matches 1495 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:acacia_trapdoor[half=bottom,facing=north,waterlogged=true]
+execute if score @s bw_block matches 1496 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:acacia_trapdoor[half=bottom,facing=east,waterlogged=false]
+execute if score @s bw_block matches 1496 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:acacia_trapdoor[half=bottom,facing=east,waterlogged=true]
+execute if score @s bw_block matches 1497 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:acacia_trapdoor[half=bottom,facing=west,waterlogged=false]
+execute if score @s bw_block matches 1497 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:acacia_trapdoor[half=bottom,facing=west,waterlogged=true]
+execute if score @s bw_block matches 1498 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:acacia_trapdoor[half=bottom,facing=south,waterlogged=false]
+execute if score @s bw_block matches 1498 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:acacia_trapdoor[half=bottom,facing=south,waterlogged=true]
+execute if score @s bw_block matches 1499 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:acacia_trapdoor[half=top,facing=north,waterlogged=false]
+execute if score @s bw_block matches 1499 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:acacia_trapdoor[half=top,facing=north,waterlogged=true]
+execute if score @s bw_block matches 1500 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:acacia_trapdoor[half=top,facing=east,waterlogged=false]
+execute if score @s bw_block matches 1500 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:acacia_trapdoor[half=top,facing=east,waterlogged=true]
+execute if score @s bw_block matches 1501 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:acacia_trapdoor[half=top,facing=west,waterlogged=false]
+execute if score @s bw_block matches 1501 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:acacia_trapdoor[half=top,facing=west,waterlogged=true]
+execute if score @s bw_block matches 1502 unless block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:acacia_trapdoor[half=top,facing=south,waterlogged=false]
+execute if score @s bw_block matches 1502 if block ~ ~ ~ minecraft:water[level=0] run setblock ~ ~ ~ minecraft:acacia_trapdoor[half=top,facing=south,waterlogged=true]
+clear @s minecraft:acacia_trapdoor 1
+function bw:scores

@@ -1,0 +1,1 @@
+execute as @a[scores={tick_cancel=1..}] run scoreboard players remove @s tick_cancel 1

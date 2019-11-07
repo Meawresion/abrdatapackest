@@ -1,0 +1,2 @@
+execute if entity @s[tag=bw_5] if block ~ ~ ~1 minecraft:jack_o_lantern unless entity @e[type=!item,dx=0,limit=1] run function bw:blocks/randoms/jack_o_lantern/set
+execute if entity @s[tag=bw_6] if block ~ ~ ~-1 minecraft:jack_o_lantern unless entity @e[type=!item,dx=0,limit=1] run function bw:blocks/randoms/jack_o_lantern/set
